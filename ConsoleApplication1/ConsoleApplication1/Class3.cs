@@ -8,5 +8,6 @@ namespace ConsoleApplication1
 {
     class Class3
     {
+        int naPeshoParite = 673575;
     }
 }
