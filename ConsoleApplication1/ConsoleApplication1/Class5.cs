@@ -8,5 +8,11 @@ namespace ConsoleApplication1
 {
     class Class5
     {
-    }
+      public Class5()
+      {
+         this.Name = "Pesho";
+      }
+
+      public string Name { get; set; }
+   }
 }
