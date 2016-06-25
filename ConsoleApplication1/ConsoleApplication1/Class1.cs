@@ -14,8 +14,8 @@ namespace ConsoleApplication1
 
         public Class1()
         {
-            this.FisrtName = "no_name";
-            this.SecondName = "no_name";
+            this.FisrtName = "no_firts_name";
+            this.SecondName = "no_second_name";
         }
     }
 }
