@@ -11,5 +11,11 @@ namespace ConsoleApplication1
         //michaela 25.06.16
         private string FisrtName;
         private string SecondName;
+
+        public Class1()
+        {
+            this.FisrtName = "no_name";
+            this.SecondName = "no_name";
+        }
     }
 }
