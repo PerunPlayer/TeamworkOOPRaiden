@@ -8,5 +8,11 @@ namespace ConsoleApplication1
 {
     class Class4
     {
+
+
+        public Class4()
+        {
+            Console.WriteLine("TEST1324");
+        }
     }
 }
