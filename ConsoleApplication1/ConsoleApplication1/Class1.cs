@@ -17,5 +17,6 @@ namespace ConsoleApplication1
             this.FisrtName = "no_firts_name";
             this.SecondName = "no_second_name";
         }
+        Console.WriteLine();
     }
 }
