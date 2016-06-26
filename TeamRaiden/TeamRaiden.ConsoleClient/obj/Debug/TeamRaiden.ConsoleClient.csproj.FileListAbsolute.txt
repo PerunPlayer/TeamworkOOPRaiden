@@ -1,0 +1,1 @@
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.ConsoleClient.exe.config
