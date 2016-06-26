@@ -1,0 +1,18 @@
+D:\Telerik Academy\C# OOP\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Telerik Academy\C# OOP\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Telerik Academy\C# OOP\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Telerik Academy\C# OOP\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Telerik Academy\C# OOP\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Telerik Academy\C# OOP\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Projects\TeamworkOOPRaiden\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Projects\TeamworkOOPRaiden\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Projects\TeamworkOOPRaiden\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Github Repository\TeamworkOOPRaiden\TeamworkOOPRaiden\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Github Repository\TeamworkOOPRaiden\TeamworkOOPRaiden\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Github Repository\TeamworkOOPRaiden\TeamworkOOPRaiden\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\TeamWork\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\TeamWork\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\TeamWork\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Mihi\Desktop\teamwork\TeamworkOOPRaiden\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Mihi\Desktop\teamwork\TeamworkOOPRaiden\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Mihi\Desktop\teamwork\TeamworkOOPRaiden\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
