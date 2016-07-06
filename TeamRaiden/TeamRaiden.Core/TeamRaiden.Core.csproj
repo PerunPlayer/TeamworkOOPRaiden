@@ -42,29 +42,29 @@
   <ItemGroup>
     <Compile Include="Contracts\Group\IGroup.cs" />
     <Compile Include="Contracts\Human\IHuman.cs" />
+    <Compile Include="Contracts\ILevel.cs" />
     <Compile Include="Contracts\Player\IPlayer.cs" />
     <Compile Include="Contracts\Referee\IReferee.cs" />
     <Compile Include="Contracts\Team\ITeam.cs" />
-    <Compile Include="Contracts\Trainer\ITrainer.cs" />
-    <Compile Include="Models\Abstract\AGroup.cs" />
-    <Compile Include="Models\Abstract\AHuman.cs" />
-    <Compile Include="Models\Abstract\APlayer.cs" />
-    <Compile Include="Models\Common\FinalGroup.cs" />
-    <Compile Include="Models\Common\Forward.cs" />
-    <Compile Include="Models\Common\Defender.cs" />
-    <Compile Include="Models\Common\Goalkeeper.cs" />
-    <Compile Include="Models\Common\GroupStageGroup.cs" />
-    <Compile Include="Models\Common\Midfielder.cs" />
-    <Compile Include="Models\Common\Referee.cs" />
-    <Compile Include="Models\Common\Team.cs" />
-    <Compile Include="Models\Common\Trainer.cs" />
+    <Compile Include="Contracts\Coach\ICoach.cs" />
+    <Compile Include="Infrastructure\Classes\Group.cs" />
+    <Compile Include="Infrastructure\Classes\Player.cs" />
+    <Compile Include="Infrastructure\Classes\Starter.cs" />
+    <Compile Include="Infrastructure\Classes\Substitute.cs" />
+    <Compile Include="Infrastructure\Enumerations\LevelType.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\BodyShape.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\EyeColor.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\FaceShape.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\HairColor.cs" />
+    <Compile Include="Infrastructure\Enumerations\PlayerType.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\ReligionType.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\RaceType.cs" />
+    <Compile Include="Infrastructure\Enumerations\TeamName.cs" />
+    <Compile Include="Infrastructure\Structs\Team.cs" />
+    <Compile Include="TeamsInfo\TeamsInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Infrastructure\Constants\" />
-    <Folder Include="Infrastructure\Enumerations\" />
-    <Folder Include="Infrastructure\Untils\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

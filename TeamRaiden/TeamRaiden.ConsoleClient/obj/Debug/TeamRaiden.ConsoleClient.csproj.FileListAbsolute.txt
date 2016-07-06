@@ -1,1 +1,2 @@
-D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.ConsoleClient.exe.config
+D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.ConsoleClient.exe.config
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\WinForms Version\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.ConsoleClient.exe.config

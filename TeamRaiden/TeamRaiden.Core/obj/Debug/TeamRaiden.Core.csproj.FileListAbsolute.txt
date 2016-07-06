@@ -1,0 +1,10 @@
+D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\bin\Debug\TeamRaiden.Core.dll
+D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\bin\Debug\TeamRaiden.Core.pdb
+D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.csprojResolveAssemblyReference.cache
+D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.dll
+D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.pdb
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\WinForms Version\TeamRaiden\TeamRaiden.Core\bin\Debug\TeamRaiden.Core.dll
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\WinForms Version\TeamRaiden\TeamRaiden.Core\bin\Debug\TeamRaiden.Core.pdb
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\WinForms Version\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.csprojResolveAssemblyReference.cache
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\WinForms Version\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.dll
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\WinForms Version\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.pdb
