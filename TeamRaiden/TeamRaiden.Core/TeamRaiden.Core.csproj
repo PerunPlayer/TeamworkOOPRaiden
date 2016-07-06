@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\ICoach.cs" />
     <Compile Include="Contracts\IGroup.cs" />
+    <Compile Include="Contracts\IHuman.cs" />
     <Compile Include="Contracts\IPlayer.cs" />
     <Compile Include="Contracts\ITeam.cs" />
     <Compile Include="Infrastructure\Classes\Coach.cs" />
@@ -48,6 +50,13 @@
     <Compile Include="Infrastructure\Classes\Participant.cs" />
     <Compile Include="Infrastructure\Classes\Player.cs" />
     <Compile Include="Infrastructure\Enumerations\GroupName.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\BodyShape.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\EyeColor.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\FaceShape.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\HairColor.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\RaceType.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\ReligionType.cs" />
+    <Compile Include="Infrastructure\Enumerations\LevelType.cs" />
     <Compile Include="Infrastructure\Enumerations\PlayerType.cs" />
     <Compile Include="Infrastructure\Enumerations\PlayerPositionType.cs" />
     <Compile Include="Infrastructure\Enumerations\TeamName.cs" />

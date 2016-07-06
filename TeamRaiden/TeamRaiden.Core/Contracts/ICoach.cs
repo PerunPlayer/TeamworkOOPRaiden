@@ -1,6 +1,5 @@
-﻿namespace TeamRaiden.Core.Contracts.Coach
+﻿namespace TeamRaiden.Core.Contracts
 {
-   using Human;
    using System;
    using System.Collections.Generic;
    using System.Linq;

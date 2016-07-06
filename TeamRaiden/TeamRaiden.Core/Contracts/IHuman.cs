@@ -1,4 +1,4 @@
-﻿namespace TeamRaiden.Core.Contracts.Human
+﻿namespace TeamRaiden.Core.Contracts
 {
     using System;
     using System.Collections.Generic;
