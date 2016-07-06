@@ -40,12 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\Group\IGroup.cs" />
-    <Compile Include="Contracts\Human\IHuman.cs" />
-    <Compile Include="Contracts\Player\IPlayer.cs" />
-    <Compile Include="Contracts\Referee\IReferee.cs" />
-    <Compile Include="Contracts\Team\ITeam.cs" />
-    <Compile Include="Contracts\Trainer\ITrainer.cs" />
+    <Compile Include="Contracts\IGroup.cs" />
+    <Compile Include="Contracts\ITeam.cs" />
     <Compile Include="Infrastructure\Classes\Coach.cs" />
     <Compile Include="Infrastructure\Classes\Group.cs" />
     <Compile Include="Infrastructure\Classes\Participant.cs" />

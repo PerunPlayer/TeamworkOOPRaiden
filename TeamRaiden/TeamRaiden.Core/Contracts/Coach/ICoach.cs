@@ -1,4 +1,4 @@
-﻿namespace TeamRaiden.Core.Contracts.Trainer
+﻿namespace TeamRaiden.Core.Contracts.Coach
 {
    using Human;
    using System;
@@ -7,7 +7,7 @@
    using System.Text;
    using System.Threading.Tasks;
 
-   interface ITrainer: IHuman
+   interface ICoach: IHuman
    {
    }
 }

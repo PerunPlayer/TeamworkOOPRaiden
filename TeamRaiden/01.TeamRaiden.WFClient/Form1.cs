@@ -24,7 +24,6 @@ namespace _01.TeamRaiden.WFClient
 
         private void MainForm(object sender, EventArgs e)
         {
-            
             int w = Screen.PrimaryScreen.Bounds.Width;
             int h = Screen.PrimaryScreen.Bounds.Height;
             this.Location = new Point(0, 0);
@@ -87,6 +86,7 @@ namespace _01.TeamRaiden.WFClient
                 }
             }
         }
+        
 
         private void teamInfoClick(object sender, EventArgs e)
         {

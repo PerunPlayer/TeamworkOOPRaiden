@@ -21,7 +21,7 @@
             Team t3 = new Team(TeamName.Andorra, coach, players);
             Team t4 = new Team(TeamName.Belgium, coach, players);
             List<Team> teams = new List<Team>() { t1, t2, t3 };
-            Group g = new Group(teams, GroupName.A);
+            Group g = new Group(teams, GroupName.C);
             Console.WriteLine(g);
             g.AddTeam(t4);
             Console.WriteLine(g);

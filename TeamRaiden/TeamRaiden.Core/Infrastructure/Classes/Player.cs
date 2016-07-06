@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TeamRaiden.Core.Contracts;
 using TeamRaiden.Core.Infrastructure.Enumerations;
 
 namespace TeamRaiden.Core.Infrastructure.Classes
 {
-    public class Player : Participant
+    public class Player : Participant , IPlayer
     {
 
         public readonly uint playerNumber;
@@ -38,5 +39,9 @@ namespace TeamRaiden.Core.Infrastructure.Classes
             this.playerPosition = playerPosition;
         }
 
+        public void SwitchPlayer()
+        {
+            //throw new NotImplementedException();
+        }
     }
 }

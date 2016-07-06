@@ -11,6 +11,7 @@ namespace TeamRaiden.Core.Infrastructure.Classes
         public Coach(string firstName, string lastName) 
             : base(firstName, lastName)
         {
+
         }
     }
 }
