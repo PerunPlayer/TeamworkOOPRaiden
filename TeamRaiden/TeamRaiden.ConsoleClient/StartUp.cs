@@ -15,18 +15,34 @@
         static void Main()
         {
             Coach coach = new Coach("dd", "dd");
-            List<Player> players = new List<Player>();
+            List<Player> players = new List<Player>()
+            {
+                new Player("a","a",1,PlayerPositionType.Attacker, PlayerType.Starter),
+                new Player("b","b",2,PlayerPositionType.Attacker, PlayerType.Substitute)
+            };
+            
             Team t1 = new Team(TeamName.Albania, coach, players);
-            Team t2 = new Team(TeamName.Armenia, coach, players);
-            Team t3 = new Team(TeamName.Andorra, coach, players);
-            Team t4 = new Team(TeamName.Belgium, coach, players);
-            List<Team> teams = new List<Team>() { t1, t2, t3 };
-            Group g = new Group(teams, GroupName.C);
-            Console.WriteLine(g);
-            g.AddTeam(t4);
-            Console.WriteLine(g);
-            g.RemoveTeam(t1);
-            Console.WriteLine(g);
+            Team t2 = new Team(TeamName.Albania, coach, players);
+
+            foreach (var item in players)
+            {
+                
+                Console.WriteLine(item.playerType);
+
+            }
+
+            t1.SwitchPlayers(players[0], players[1]);
+
+            foreach (var item in players)
+            {
+
+                Console.WriteLine(item.playerType);
+
+            }
+
+            
+
+
         }
 
 

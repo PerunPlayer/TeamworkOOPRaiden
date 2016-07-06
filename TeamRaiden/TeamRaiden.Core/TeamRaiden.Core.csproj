@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contracts\IGroup.cs" />
+    <Compile Include="Contracts\IPlayer.cs" />
     <Compile Include="Contracts\ITeam.cs" />
     <Compile Include="Infrastructure\Classes\Coach.cs" />
     <Compile Include="Infrastructure\Classes\Group.cs" />

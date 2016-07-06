@@ -8,12 +8,12 @@ using TeamRaiden.Core.Infrastructure.Enumerations;
 
 namespace TeamRaiden.Core.Infrastructure.Classes
 {
-    public class Player : Participant , IPlayer
+    public class Player : Participant
     {
 
         public readonly uint playerNumber;
         public readonly PlayerPositionType playerPosition;
-        public readonly PlayerType playerType;
+        public PlayerType playerType;
 
         public uint PlayerNumber
         {
@@ -27,6 +27,7 @@ namespace TeamRaiden.Core.Infrastructure.Classes
 
         public PlayerType PlayerType {
             get { return this.playerType; }
+            set { this.playerType = value; }
         }
 
 
@@ -39,9 +40,6 @@ namespace TeamRaiden.Core.Infrastructure.Classes
             this.playerPosition = playerPosition;
         }
 
-        public void SwitchPlayer()
-        {
-            //throw new NotImplementedException();
-        }
+      
     }
 }

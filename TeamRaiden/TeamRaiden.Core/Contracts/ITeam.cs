@@ -12,6 +12,7 @@
     public interface ITeam
     {
         void AddPoints(uint points);
-
+        void SwitchPlayers(Player a, Player b);
+       
     }
 }

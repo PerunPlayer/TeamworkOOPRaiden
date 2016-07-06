@@ -51,5 +51,21 @@ namespace TeamRaiden.Core.Infrastructure.Structs
         {
             this.teamPoints += points;
         }
+
+        public void SwitchPlayers(Player a, Player b)
+        {
+            foreach (var player in this.players)
+            {
+                if(player == a)
+                {
+                    player.playerType = PlayerType.Substitute;
+                }
+                if (player == b)
+                {
+                    player.playerType = PlayerType.Starter;
+                }
+            }
+           
+        }
     }
 }

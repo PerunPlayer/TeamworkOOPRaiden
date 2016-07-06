@@ -9,6 +9,6 @@ namespace TeamRaiden.Core.Contracts
     public interface IPlayer
     {
 
-        void SwitchPlayer();
+        
     }
 }
