@@ -6,19 +6,22 @@
     using System.Text;
     using System.Threading.Tasks;
     using TeamRaiden.Core.Infrastructure.Enumerations.HumanEnumerations;
-    interface IHuman
+    public interface IHuman
     {
-        int Age { get; }
-        string FirstNAme { get; }
+      
+        string FirstName { get; }
         string MiddleName { get; }
-        string LastNAme { get; }
-        RaceType RaceTypeType { get; }
-        ReligionType Religion { get; }
+        string LastName { get; }
+        int ID { get; }
+        int Age { get; }
         int Heigth { get; }
         int Weight { get; }
-        EyeColor EyeType { get; }
-        FaceShape FaceSgapeType { get; }
-        HairColor HairColorType { get; }
-        BodyShape BodyShapeType { get; }
+        RaceType RaceType { get; }
+        ReligionType Religion { get; }        
+        EyeColorType EyeType { get; }
+        FaceShapeType FaceShape { get; }
+        HairColorType HairColor { get; }
+        BodyShapeType BodyShape { get; }
+       
     }
 }

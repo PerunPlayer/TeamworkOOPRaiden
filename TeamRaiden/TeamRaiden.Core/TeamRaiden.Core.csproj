@@ -50,11 +50,12 @@
     <Compile Include="Infrastructure\Classes\Match.cs" />
     <Compile Include="Infrastructure\Classes\Participant.cs" />
     <Compile Include="Infrastructure\Classes\Player.cs" />
+    <Compile Include="Infrastructure\Constants\GlobalConstants.cs" />
     <Compile Include="Infrastructure\Enumerations\GroupName.cs" />
-    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\BodyShape.cs" />
-    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\EyeColor.cs" />
-    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\FaceShape.cs" />
-    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\HairColor.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\BodyShapeType.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\EyeColorType.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\FaceShapeType.cs" />
+    <Compile Include="Infrastructure\Enumerations\HumanEnumerations\HairColorType.cs" />
     <Compile Include="Infrastructure\Enumerations\HumanEnumerations\RaceType.cs" />
     <Compile Include="Infrastructure\Enumerations\HumanEnumerations\ReligionType.cs" />
     <Compile Include="Infrastructure\Enumerations\LevelType.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Infrastructure\Enumerations\PlayerPositionType.cs" />
     <Compile Include="Infrastructure\Enumerations\TeamName.cs" />
     <Compile Include="Infrastructure\Classes\Team.cs" />
+    <Compile Include="Infrastructure\Utils\DataGenerator.cs" />
     <Compile Include="TeamsInfo\TeamsInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
