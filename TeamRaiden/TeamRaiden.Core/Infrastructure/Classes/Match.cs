@@ -14,13 +14,16 @@
 
       }
 
+      /// <summary>
+      /// Takes team1 and team2 and returns result of the match "x:y" as string where x are goals for team1 and y - team2.
+      /// </summary>
       public static string Play(ITeam team1,ITeam team2)
       {
          string result = string.Empty;
 
-
-
-
+         Random rng = new Random();
+         result = $"{rng.Next(team1.Points/90,team1.Points/20)}:{rng.Next(team2.Points/90,team2.Points/20)}";
+         
          return result;
       }
    }
