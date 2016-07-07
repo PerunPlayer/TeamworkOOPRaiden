@@ -22,7 +22,7 @@
          string result = string.Empty;
 
          Random rng = new Random();
-         result = $"{rng.Next(team1.Points/90,team1.Points/20)}:{rng.Next(team2.Points/90,team2.Points/20)}";
+         result = $"{rng.Next(team1.TotalTeamCapability / 90,team1.TotalTeamCapability / 20)}:{rng.Next(team2.TotalTeamCapability / 90,team2.TotalTeamCapability / 20)}";
          
          return result;
       }
