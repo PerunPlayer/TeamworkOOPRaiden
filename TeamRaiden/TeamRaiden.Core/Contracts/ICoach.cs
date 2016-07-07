@@ -8,5 +8,6 @@
 
    interface ICoach: IHuman
    {
+
    }
 }

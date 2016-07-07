@@ -11,6 +11,10 @@
 
     public interface ITeam
     {
+        List<Player> Players { get; }
+        Coach Coach { get; }
+        int Points { get; set; }
+
         void AddPoints(uint points);
         void SwitchPlayers(Player a, Player b);
        

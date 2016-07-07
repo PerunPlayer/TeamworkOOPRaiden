@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TeamRaiden.Core.Contracts
 {
-    public interface IPlayer
+    interface IPlayer : IHuman
     {
-
-        
+        int Capability { get; }
+        int PlayerNumber { get; }
     }
 }
