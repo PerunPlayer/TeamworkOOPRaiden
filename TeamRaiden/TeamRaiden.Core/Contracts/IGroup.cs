@@ -9,7 +9,6 @@
     using Team;
    public interface IGroup
    {
-
         void AddTeam(Team team);
         void RemoveTeam(Team team);
     }

@@ -8,6 +8,6 @@
 
    interface ICoach: IHuman
    {
-
+        int CoachCapability { get; }
    }
 }

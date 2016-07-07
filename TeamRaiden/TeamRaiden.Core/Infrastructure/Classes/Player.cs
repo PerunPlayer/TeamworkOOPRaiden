@@ -5,41 +5,35 @@ using System.Text;
 using System.Threading.Tasks;
 using TeamRaiden.Core.Contracts;
 using TeamRaiden.Core.Infrastructure.Enumerations;
+using TeamRaiden.Core.Infrastructure.Enumerations.HumanEnumerations;
 
 namespace TeamRaiden.Core.Infrastructure.Classes
 {
-    public class Player : Participant
+    public class Player : Participant, IPlayer
     {
 
-        public readonly uint playerNumber;
-        public readonly PlayerPositionType playerPosition;
-        public PlayerType playerType;
-
-        public uint PlayerNumber
-        {
-            get { return this.playerNumber; }
-        }
-
-        public PlayerPositionType PlayerPosition
-        {
-            get { return this.playerPosition; }
-        }
-
-        public PlayerType PlayerType {
-            get { return this.playerType; }
-            set { this.playerType = value; }
-        }
+        private readonly int playerNumber;
+        private readonly int capability;
+        private readonly PlayerPositionType playerPosition;
+        private PlayerType playerType;
 
 
+        public int PlayerNumber { get { return this.playerNumber; } }
+        public PlayerPositionType PlayerPosition { get { return this.playerPosition; } }
+        public PlayerType PlayerType { get { return this.playerType; } set { this.playerType = value; } }
+        public int Capability { get { return this.capability; } }
 
-        public Player(string firstName, string lastName, uint playerNumber, PlayerPositionType playerPosition, PlayerType playerType)
-            : base(firstName, lastName)
+        public Player(string firstName, string middleName, string lastName, int id, int age, int heigth, int weigth, RaceType raceType, 
+            ReligionType religionType, EyeColorType eyeColorType, FaceShapeType faceShape, HairColorType hairColor, BodyShapeType bodyShape,
+            int playerNumber, PlayerPositionType playerPosition, PlayerType playerType, int capability)
+            : base(firstName, middleName, lastName, id, age, heigth, weigth, raceType, religionType, eyeColorType, faceShape, hairColor, bodyShape)
         {
             this.playerNumber = playerNumber;
             this.playerType = playerType;
             this.playerPosition = playerPosition;
+            this.capability = capability;
         }
 
-      
+
     }
 }

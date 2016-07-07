@@ -7,8 +7,7 @@
     using System.Threading.Tasks;
     using TeamRaiden.Core.Infrastructure.Enumerations.HumanEnumerations;
     public interface IHuman
-    {
-      
+    {      
         string FirstName { get; }
         string MiddleName { get; }
         string LastName { get; }
@@ -21,7 +20,6 @@
         EyeColorType EyeType { get; }
         FaceShapeType FaceShape { get; }
         HairColorType HairColor { get; }
-        BodyShapeType BodyShape { get; }
-       
+        BodyShapeType BodyShape { get; }       
     }
 }

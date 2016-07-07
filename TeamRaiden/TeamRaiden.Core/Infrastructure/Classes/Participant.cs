@@ -56,7 +56,6 @@ namespace TeamRaiden.Core.Infrastructure.Classes
             this.hairColor = hairColor;
             this.bodyShape = bodyShape;
         }
-
-
+        
     }
 }

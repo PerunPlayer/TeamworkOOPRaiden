@@ -11,12 +11,13 @@
 
     public interface ITeam
     {
-        List<Player> Players { get; }
+        TeamName TeamName { get; }
+        ICollection<Player> Players { get; }
         Coach Coach { get; }
-        int Points { get; set; }
+        uint Points { get; }
+        int TotalTeamCapability { get; set; }
 
         void AddPoints(uint points);
         void SwitchPlayers(Player a, Player b);
-       
     }
 }
