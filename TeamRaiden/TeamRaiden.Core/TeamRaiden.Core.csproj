@@ -47,6 +47,7 @@
     <Compile Include="Contracts\ITeam.cs" />
     <Compile Include="Infrastructure\Classes\Coach.cs" />
     <Compile Include="Infrastructure\Classes\Group.cs" />
+    <Compile Include="Infrastructure\Classes\Match.cs" />
     <Compile Include="Infrastructure\Classes\Participant.cs" />
     <Compile Include="Infrastructure\Classes\Player.cs" />
     <Compile Include="Infrastructure\Enumerations\GroupName.cs" />
