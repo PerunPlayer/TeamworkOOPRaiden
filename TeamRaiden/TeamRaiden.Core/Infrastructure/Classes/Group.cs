@@ -12,14 +12,17 @@ namespace TeamRaiden.Core.Infrastructure.Classes
 {
     public class Group : IGroup
     {
-        private ICollection<Team> teams;
+        private ICollection<Team> teams= new List<Team>();
         private readonly GroupName groupName;
 
         public ICollection<Team> Teams { get { return this.teams; } set { this.teams = value; } }
-
         public GroupName GroupName { get { return this.groupName; } }
 
-        public Group(ICollection<Team> teams, GroupName groupName) { this.Teams = teams; this.groupName = groupName; }
+        public Group(ICollection<Team> teams, GroupName groupName)
+        {
+            this.Teams = teams;
+            this.groupName = groupName;
+        }
 
         public void AddTeam(Team team)
         {
