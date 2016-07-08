@@ -40,7 +40,9 @@ namespace TeamRaiden.Core.Infrastructure.Structs
             {
                 teamCapability += player.Capability;
             }
-            teamCapability += coach.CoachCapability * GlobalConstants.CoachImportance;
+            teamCapability /= players.Count;
+            teamCapability += coach.CoachCapability;
+            teamCapability /= 2;
             return teamCapability;
         }
 
