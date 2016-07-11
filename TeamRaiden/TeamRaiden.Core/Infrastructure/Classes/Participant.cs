@@ -10,8 +10,7 @@ namespace TeamRaiden.Core.Infrastructure.Classes
 {
     public abstract class Participant : IHuman
     {
-        private string firstName;
-        private readonly string middleName;
+        private string firstName;       
         private string lastName;
         private readonly int iD;
         private int age;
@@ -24,8 +23,7 @@ namespace TeamRaiden.Core.Infrastructure.Classes
         private readonly HairColorType hairColor;
         private readonly BodyShapeType bodyShape;
 
-        public string FirstName { get { return this.firstName; } private set { this.firstName = value; } }
-        public string MiddleName { get { return this.middleName; } }
+        public string FirstName { get { return this.firstName; } private set { this.firstName = value; } }    
         public string LastName { get { return this.lastName; } private set { this.lastName = value; } }
         public int ID { get { return this.iD; } }
         public int Age { get { return this.age; } private set { this.age = value; } }
@@ -39,12 +37,11 @@ namespace TeamRaiden.Core.Infrastructure.Classes
         public BodyShapeType BodyShape { get { return this.bodyShape; } }
 
 
-        public Participant(string firstName, string middleName, string lastName, int id, int age,int heigth, int weigth, 
+        public Participant(string firstName, string lastName, int id, int age,int heigth, int weigth, 
             RaceType raceType,ReligionType religionType, EyeColorType eyeColorType, 
             FaceShapeType faceShape, HairColorType hairColor, BodyShapeType bodyShape)
         {
-            this.firstName = firstName;
-            this.middleName = middleName;
+            this.firstName = firstName;            
             this.lastName = lastName;
             this.iD = id;
             this.weigth = weigth;

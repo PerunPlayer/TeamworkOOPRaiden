@@ -8,8 +8,7 @@
     using TeamRaiden.Core.Infrastructure.Enumerations.HumanEnumerations;
     public interface IHuman
     {      
-        string FirstName { get; }
-        string MiddleName { get; }
+        string FirstName { get; }        
         string LastName { get; }
         int ID { get; }
         int Age { get; }

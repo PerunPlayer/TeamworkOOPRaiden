@@ -13,25 +13,24 @@ namespace TeamRaiden.Core.Infrastructure.Structs
 {
     public class Team : ITeam
     {
-        private readonly TeamName teamName;
+        private string teamName;
         private ICollection<Player> players;
         private uint points = 0;
         private Coach coach;
         private int totalTeamCapability;
 
         public Coach Coach { get { return this.coach; } set { this.coach = value; } }
-        public TeamName TeamName { get { return this.teamName; } }
-        public ICollection<Player> Players { get { return this.players; } }
+        public string TeamName { get { return this.teamName; } private set { this.teamName = value; } }
+        public ICollection<Player> Players { get { return this.players; } private set { this.players = value; } }
         public uint Points { get { return this.points; } private set { this.points = value; } }
-        public int TotalTeamCapability { get { return this.totalTeamCapability; } set { this.totalTeamCapability = value; } }
+        public int TotalTeamCapability { get { return this.totalTeamCapability; } private set { this.totalTeamCapability = value; } }
 
-        public Team(TeamName teamName, Coach coach, ICollection<Player> players)
+        public Team(string teamName, Coach coach, ICollection<Player> players)
         {
-            this.teamName = teamName;
-            this.coach = coach;
-            this.players = players;
-            //this.points = teamPoints;
-            this.totalTeamCapability = CalculateTotalTeamCapability();
+            this.TeamName = teamName;
+            this.Coach = coach;
+            this.Players = players;
+            this.TotalTeamCapability = CalculateTotalTeamCapability();
         }
         public int CalculateTotalTeamCapability()
         {
@@ -50,7 +49,7 @@ namespace TeamRaiden.Core.Infrastructure.Structs
         {
             this.points += points;
         }
-        public void SwitchPlayers(Player a, Player b)  ///???????????
+        public void SwitchPlayers(Player a, Player b)  
         {
             foreach (var player in this.players)
             {
