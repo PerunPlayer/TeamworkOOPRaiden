@@ -11,3 +11,8 @@ D:\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.pdb
 D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.csprojResolveAssemblyReference.cache
 D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.dll
 D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.pdb
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\bin\Debug\TeamRaiden.Core.dll
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\bin\Debug\TeamRaiden.Core.pdb
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.csprojResolveAssemblyReference.cache
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.dll
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.pdb

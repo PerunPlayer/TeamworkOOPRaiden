@@ -25,3 +25,8 @@ D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\Team
 D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.Core.dll
 D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.Core.pdb
 D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\obj\Debug\TeamRaiden.ConsoleClient.csprojResolveAssemblyReference.cache
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.ConsoleClient.exe
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.ConsoleClient.pdb
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.Core.dll
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.Core.pdb
+D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\obj\Debug\TeamRaiden.ConsoleClient.csprojResolveAssemblyReference.cache

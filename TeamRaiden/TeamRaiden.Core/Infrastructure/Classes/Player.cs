@@ -17,7 +17,6 @@ namespace TeamRaiden.Core.Infrastructure.Classes
         private readonly PlayerPositionType playerPosition;
         private PlayerType playerType;
 
-
         public int PlayerNumber { get { return this.playerNumber; } }
         public PlayerPositionType PlayerPosition { get { return this.playerPosition; } }
         public PlayerType PlayerType { get { return this.playerType; } set { this.playerType = value; } }
