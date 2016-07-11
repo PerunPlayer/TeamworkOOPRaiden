@@ -19,5 +19,6 @@
 
         void AddPoints(uint points);
         void SwitchPlayers(Player a, Player b);
-    }
+        void ClearPoints();
+   }
 }
