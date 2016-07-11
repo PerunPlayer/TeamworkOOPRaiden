@@ -9,8 +9,7 @@ using TeamRaiden.Core.Infrastructure.Enumerations.HumanEnumerations;
 
 namespace TeamRaiden.Core.Infrastructure.Classes
 {
-    public class Player : Participant, IPlayer
-    {
+    public class Player : Participant, IPlayer    {
 
         private readonly int playerNumber;
         private int capability;
@@ -46,10 +45,10 @@ namespace TeamRaiden.Core.Infrastructure.Classes
             return !(Player.Equals(player1, player2));
         }
         
-        public Player(string firstName, string middleName, string lastName, int id, int age, int heigth, int weigth, RaceType raceType, 
+        public Player(string firstName, string lastName, int id, int age, int heigth, int weigth, RaceType raceType, 
             ReligionType religionType, EyeColorType eyeColorType, FaceShapeType faceShape, HairColorType hairColor, BodyShapeType bodyShape,
             int playerNumber, PlayerPositionType playerPosition, PlayerType playerType, int capability)
-            : base(firstName, middleName, lastName, id, age, heigth, weigth, raceType, religionType, eyeColorType, faceShape, hairColor, bodyShape)
+            : base(firstName, lastName, id, age, heigth, weigth, raceType, religionType, eyeColorType, faceShape, hairColor, bodyShape)
         {
             this.playerNumber = playerNumber;
             this.playerType = playerType;
