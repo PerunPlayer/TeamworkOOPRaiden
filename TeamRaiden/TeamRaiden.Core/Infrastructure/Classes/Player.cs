@@ -22,7 +22,31 @@ namespace TeamRaiden.Core.Infrastructure.Classes
         public PlayerPositionType PlayerPosition { get { return this.playerPosition; } }
         public PlayerType PlayerType { get { return this.playerType; } set { this.playerType = value; } }
         public int Capability { get { return this.capability; } }
-
+        
+        public override bool Equals(object obj)
+        {
+            Player player = obj as Player;
+            if (player == null)
+            {
+                return false;
+            }
+            if(player.ID != this.ID)
+            {
+                return false;
+            }
+            return true;
+        }
+        public static bool operator ==(Player player1,
+                                Player player2)
+        {
+            return Player.Equals(player1, player2);
+        }
+        public static bool operator !=(Player player1,
+                              Player player2)
+        {
+            return !(Player.Equals(player1, player2));
+        }
+        
         public Player(string firstName, string middleName, string lastName, int id, int age, int heigth, int weigth, RaceType raceType, 
             ReligionType religionType, EyeColorType eyeColorType, FaceShapeType faceShape, HairColorType hairColor, BodyShapeType bodyShape,
             int playerNumber, PlayerPositionType playerPosition, PlayerType playerType, int capability)
