@@ -19,8 +19,6 @@ namespace TeamRaiden.Core.Infrastructure.Classes
             : base(firstName, middleName, lastName, id, age, heigth, weigth, raceType, religionType, eyeColorType, faceShape, hairColor, bodyShape)
         {
             this.coachCapability = coachCapability;
-        }
-
-
+        }        
     }
 }

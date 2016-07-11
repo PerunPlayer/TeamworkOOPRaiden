@@ -10,8 +10,6 @@ using TeamRaiden.Core.Infrastructure.Structs;
 
 namespace TeamRaiden.Core.Infrastructure.Classes
 {
- 
-
     public class Levels
     {
         private LevelType level;
