@@ -12,7 +12,6 @@ namespace TeamRaiden.Core.Infrastructure.Classes
 {
    public class Group : IGroup
    {
-      private int[,] results;
       private IList<ITeam> teams = new List<ITeam>();
       private readonly GroupName groupName;
 
@@ -20,7 +19,6 @@ namespace TeamRaiden.Core.Infrastructure.Classes
       {
          this.Teams = teams;
          this.groupName = groupName;
-         results = new int[teams.Count, teams.Count];
       }
 
       public IList<ITeam> Teams { get { return this.teams; } set { this.teams = value; } }

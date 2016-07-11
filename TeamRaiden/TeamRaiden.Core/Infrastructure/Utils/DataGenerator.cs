@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using TeamRaiden.Core.Contracts;
+using TeamRaiden.Core.Contracts.Team;
 using TeamRaiden.Core.Infrastructure.Classes;
 using TeamRaiden.Core.Infrastructure.Constants;
 using TeamRaiden.Core.Infrastructure.Enumerations;
@@ -93,7 +94,7 @@ namespace TeamRaiden.Core.Infrastructure.Utils
         }
         public static Group GenerateGroup()
         {
-            ICollection<Team> teams = new List<Team>();
+            IList<ITeam> teams = new List<ITeam>();
             for (int i = 0; i < GlobalConstants.TotalNumberGroups; i++)
             {
                 while (!teams.Contains(GenerateTeam()))
