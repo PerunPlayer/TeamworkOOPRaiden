@@ -15,16 +15,25 @@
       }
 
       /// <summary>
-      /// Takes team1 and team2 and returns result of the match "x:y" as string where x are goals for team1 and y - team2.
+      /// Takes team1 and team2 and returns indication of their goals values.
       /// </summary>
-      public static string Play(ITeam team1,ITeam team2)
+      public static int Play(ITeam team1, ITeam team2)
       {
-         string result = string.Empty;
+         int result = 0;
 
          Random rng = new Random();
-         result = $"{rng.Next(team1.TotalTeamCapability / 90,team1.TotalTeamCapability / 20)}:{rng.Next(team2.TotalTeamCapability / 90,team2.TotalTeamCapability / 20)}";
-         
+         var team1Goals = rng.Next(team1.TotalTeamCapability / 90, team1.TotalTeamCapability / 20);
+         var team2Goals = rng.Next(team2.TotalTeamCapability / 90, team2.TotalTeamCapability / 20);
+
+         result = team1Goals.CompareTo(team2Goals);
+
          return result;
+      }
+
+      public static int Penalties(ITeam team1,ITeam team2)
+      {
+         Random rng = new Random();
+         return rng.Next(-1, 1);
       }
    }
 }

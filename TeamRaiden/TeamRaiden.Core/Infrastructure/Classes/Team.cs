@@ -30,7 +30,6 @@ namespace TeamRaiden.Core.Infrastructure.Structs
             this.teamName = teamName;
             this.coach = coach;
             this.players = players;
-            //this.points = teamPoints;
             this.totalTeamCapability = CalculateTotalTeamCapability();
         }
         public int CalculateTotalTeamCapability()
@@ -65,5 +64,10 @@ namespace TeamRaiden.Core.Infrastructure.Structs
             }
 
         }
-    }
+
+      public void ClearPoints()
+      {
+         this.Points=0;
+      }
+   }
 }

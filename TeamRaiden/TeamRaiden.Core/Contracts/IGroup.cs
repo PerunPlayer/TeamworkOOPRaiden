@@ -8,11 +8,9 @@
     using System.Text;
     using System.Threading.Tasks;
     using Team;
-    public interface IGroup
-    {
-        ICollection<Team> Teams { get; }
-        GroupName GroupName { get; }
-        void AddTeam(Team team);
-        void RemoveTeam(Team team);
-    }
+   public interface IGroup
+   {
+      IList<ITeam> Teams { get; }
+      GroupName GroupName { get; }
+   }
 }
