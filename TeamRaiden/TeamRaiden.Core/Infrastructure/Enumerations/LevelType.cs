@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TeamRaiden.Core.Infrastructure.Enumerations
 {
-    enum LevelType
+    public enum LevelType
     {
         NotSet = 0,
         Final = 1,

@@ -25,12 +25,12 @@ namespace TeamRaiden.Core.Infrastructure.Structs
         public uint Points { get { return this.points; } private set { this.points = value; } }
         public int TotalTeamCapability { get { return this.totalTeamCapability; } set { this.totalTeamCapability = value; } }
 
-        public Team(TeamName teamName, Coach coach, ICollection<Player> players, uint teamPoints)
+        public Team(TeamName teamName, Coach coach, ICollection<Player> players)
         {
             this.teamName = teamName;
             this.coach = coach;
             this.players = players;
-            this.points = teamPoints;
+            //this.points = teamPoints;
             this.totalTeamCapability = CalculateTotalTeamCapability();
         }
         public int CalculateTotalTeamCapability()

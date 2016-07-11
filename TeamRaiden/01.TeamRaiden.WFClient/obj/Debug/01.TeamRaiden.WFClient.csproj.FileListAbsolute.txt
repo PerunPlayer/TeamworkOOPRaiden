@@ -10,3 +10,15 @@ D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\obj\Debug\01.Tea
 D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\obj\Debug\01.TeamRaiden.WFClient.exe
 D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\obj\Debug\01.TeamRaiden.WFClient.pdb
 D:\TeamWork\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\bin\Debug\01.TeamRaiden.WFClient.exe.config
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\bin\Debug\01.TeamRaiden.WFClient.exe
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\bin\Debug\01.TeamRaiden.WFClient.pdb
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\bin\Debug\TeamRaiden.Core.dll
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\bin\Debug\TeamRaiden.Core.pdb
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\obj\Debug\01.TeamRaiden.WFClient.csprojResolveAssemblyReference.cache
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\obj\Debug\_01.TeamRaiden.WFClient.Form1.resources
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\obj\Debug\_01.TeamRaiden.WFClient.Properties.Resources.resources
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\obj\Debug\01.TeamRaiden.WFClient.csproj.GenerateResource.Cache
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\obj\Debug\01.TeamRaiden.WFClient.exe
+D:\Projects\TeamworkOOPRaiden\TeamRaiden\01.TeamRaiden.WFClient\obj\Debug\01.TeamRaiden.WFClient.pdb
