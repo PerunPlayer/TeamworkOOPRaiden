@@ -13,14 +13,14 @@ namespace TeamRaiden.Core.Infrastructure.Classes
     {
 
         private readonly int playerNumber;
-        private readonly int capability;
+        private int capability;
         private readonly PlayerPositionType playerPosition;
         private PlayerType playerType;
 
         public int PlayerNumber { get { return this.playerNumber; } }
         public PlayerPositionType PlayerPosition { get { return this.playerPosition; } }
         public PlayerType PlayerType { get { return this.playerType; } set { this.playerType = value; } }
-        public int Capability { get { return this.capability; } }
+        public int Capability { get { return this.capability; } private set { this.capability = value; } }
         
         public override bool Equals(object obj)
         {
@@ -57,6 +57,11 @@ namespace TeamRaiden.Core.Infrastructure.Classes
             this.capability = capability;
         }
 
-
+      //for testing purpose
+      public Player(string firstName, string lastName, int age, int capability)
+         :base(firstName,lastName,age)
+      {
+         this.Capability = capability;
+      }
     }
 }
