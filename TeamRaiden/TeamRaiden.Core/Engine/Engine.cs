@@ -6,12 +6,10 @@
     {
         public static void Start(int numberOfTeams)
         {
-            
             //Console.WriteLine(DataGenerator.GenerateCoach().ToString());
-            //Console.WriteLine(DataGenerator.GenerateCoach().ToString());
-            //Console.WriteLine(DataGenerator.GeneratePlayer().ToString());
-            //Console.WriteLine(DataGenerator.GeneratePlayer().ToString());
+            //Console.WriteLine(DataGenerator.GeneratePlayer().ToString());          
             Console.WriteLine(DataGenerator.GenerateTeam().ToString());
+
             int numberOfGroups = numberOfTeams / 4;
 
             for (int i = 0; i < numberOfGroups; i++)

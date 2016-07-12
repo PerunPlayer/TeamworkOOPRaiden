@@ -12,5 +12,6 @@
    {
       IList<ITeam> Teams { get; }
       GroupName GroupName { get; }
+      ICollection<ITeam> GroupWinners();
    }
 }

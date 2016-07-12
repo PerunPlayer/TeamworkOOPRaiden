@@ -23,6 +23,7 @@
             RaceType raceType, ReligionType religionType, EyeColorType eyeColorType,
             FaceShapeType faceShape, HairColorType hairColor, BodyShapeType bodyShape)
         {
+            this.Age = age;
             this.FirstName = firstName;
             this.LastName = lastName;
             this.ID = id;
