@@ -63,7 +63,7 @@
             sb.AppendLine(string.Format("Player number in team: {0}", this.PlayerNumber));
             sb.AppendLine(string.Format("Position: {0}", this.PlayerPosition));
             sb.AppendLine(string.Format("Player type: {0}", this.PlayerType));
-
+            sb.Append(string.Format(new string('-', 80)));
             return sb.ToString();
         }
 

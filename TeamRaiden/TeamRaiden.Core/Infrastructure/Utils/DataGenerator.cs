@@ -138,9 +138,13 @@
             IList<ITeam> teams = new List<ITeam>();
             for (int i = 0; i < GlobalConstants.TotalNumberGroups; i++)
             {
-                while (!teams.Contains(GenerateTeam()))
+              if (!teams.Contains(GenerateTeam()))
                 {
                     teams.Add(GenerateTeam());   // !!!!!!!!!!!!!ATTENTION
+                }
+                else
+                {
+                    i--;
                 }
             }
             return new Group(teams, (GroupName)(random.Next((int)GroupName.NotSet, (int)GroupName.F)));

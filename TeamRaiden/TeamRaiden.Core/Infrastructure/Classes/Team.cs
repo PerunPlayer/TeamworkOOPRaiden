@@ -61,6 +61,7 @@
         {
             string teamName = "TEAM:";
             StringBuilder sb = new StringBuilder();
+            sb.Append(string.Format(new string('#', 80)));
             sb.AppendLine(teamName);
             sb.AppendLine(this.TeamName);
             sb.Append(this.Coach.ToString());
@@ -69,6 +70,7 @@
                 sb.Append(player.ToString());
 
             }
+            sb.Append(string.Format(new string('#', 80)));
             return sb.ToString();
         }
 
