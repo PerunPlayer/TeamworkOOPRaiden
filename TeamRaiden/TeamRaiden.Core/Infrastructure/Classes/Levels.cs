@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TeamRaiden.Core.Contracts.Group;
-using TeamRaiden.Core.Contracts.Team;
-using TeamRaiden.Core.Infrastructure.Enumerations;
-using TeamRaiden.Core.Infrastructure.Structs;
-
-namespace TeamRaiden.Core.Infrastructure.Classes
+﻿namespace TeamRaiden.Core.Infrastructure.Classes
 {
+    using System.Collections.Generic;
+    using TeamRaiden.Core.Infrastructure.Enumerations;
+    using TeamRaiden.Core.Infrastructure.Structs;
+
     public class Levels
     {
         private LevelType level;

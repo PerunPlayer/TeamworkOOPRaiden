@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TeamRaiden.Core.Infrastructure.Enumerations.HumanEnumerations
+﻿namespace TeamRaiden.Core.Infrastructure.Enumerations.HumanEnumerations
 {
-  public  enum FaceShapeType
+    public  enum FaceShapeType
     {
         NotSet = 0,
         Oval = 1,

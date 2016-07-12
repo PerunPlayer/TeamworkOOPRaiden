@@ -2,21 +2,21 @@
 {
     using Infrastructure.Utils;
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
     public static class Engine
     {
-        public static void Start(int numberOfTeams)  ///Whole Euro league => Roundof16 => Grops => Teams => winners=>
-                                                    // =>quarter-final => Grops => Teams => winners=>
-                                                    // =>semi-final => Grops => Teams => winners=>
-                                                    // =>final => Grops => Teams => winners=>
+        public static void Start(int numberOfTeams)
         {
+            
+            //Console.WriteLine(DataGenerator.GenerateCoach().ToString());
+            //Console.WriteLine(DataGenerator.GenerateCoach().ToString());
+            //Console.WriteLine(DataGenerator.GeneratePlayer().ToString());
+            //Console.WriteLine(DataGenerator.GeneratePlayer().ToString());
+            Console.WriteLine(DataGenerator.GenerateTeam().ToString());
             int numberOfGroups = numberOfTeams / 4;
+
             for (int i = 0; i < numberOfGroups; i++)
             {
-                //DataGenerator.
+                DataGenerator.GenerateGroup();
             }
 
         }

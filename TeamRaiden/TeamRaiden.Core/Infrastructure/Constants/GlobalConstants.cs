@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TeamRaiden.Core.Infrastructure.Constants
+﻿namespace TeamRaiden.Core.Infrastructure.Constants
 {
-  public  class GlobalConstants
+    using System.Collections.Generic;
+    public  class GlobalConstants
     {
         public const int TotalNumbersOfPlayers = 11;
         public const int TotalNumberGroups = 4;

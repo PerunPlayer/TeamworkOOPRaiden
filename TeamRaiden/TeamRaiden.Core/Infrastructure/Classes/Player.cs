@@ -1,26 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TeamRaiden.Core.Contracts;
-using TeamRaiden.Core.Infrastructure.Enumerations;
-using TeamRaiden.Core.Infrastructure.Enumerations.HumanEnumerations;
-
-namespace TeamRaiden.Core.Infrastructure.Classes
+﻿namespace TeamRaiden.Core.Infrastructure.Classes
 {
-    public class Player : Participant, IPlayer    {
+    using System.Text;
+    using TeamRaiden.Core.Contracts;
+    using TeamRaiden.Core.Infrastructure.Enumerations;
+    using TeamRaiden.Core.Infrastructure.Enumerations.HumanEnumerations;
+    public class Player : Participant, IPlayer
+    {
 
-        private readonly int playerNumber;
+        private int playerNumber;
         private int capability;
-        private readonly PlayerPositionType playerPosition;
+        private PlayerPositionType playerPosition;
         private PlayerType playerType;
 
-        public int PlayerNumber { get { return this.playerNumber; } }
-        public PlayerPositionType PlayerPosition { get { return this.playerPosition; } }
-        public PlayerType PlayerType { get { return this.playerType; } set { this.playerType = value; } }
-        public int Capability { get { return this.capability; } private set { this.capability = value; } }
-        
         public override bool Equals(object obj)
         {
             Player player = obj as Player;
@@ -28,7 +19,7 @@ namespace TeamRaiden.Core.Infrastructure.Classes
             {
                 return false;
             }
-            if(player.ID != this.ID)
+            if (player.ID != this.ID)
             {
                 return false;
             }
@@ -44,23 +35,81 @@ namespace TeamRaiden.Core.Infrastructure.Classes
         {
             return !(Player.Equals(player1, player2));
         }
-        
-        public Player(string firstName, string lastName, int id, int age, int heigth, int weigth, RaceType raceType, 
+
+        public Player(string firstName, string lastName, int id, int age, int heigth, int weigth, RaceType raceType,
             ReligionType religionType, EyeColorType eyeColorType, FaceShapeType faceShape, HairColorType hairColor, BodyShapeType bodyShape,
             int playerNumber, PlayerPositionType playerPosition, PlayerType playerType, int capability)
             : base(firstName, lastName, id, age, heigth, weigth, raceType, religionType, eyeColorType, faceShape, hairColor, bodyShape)
         {
-            this.playerNumber = playerNumber;
-            this.playerType = playerType;
-            this.playerPosition = playerPosition;
-            this.capability = capability;
+            this.PlayerNumber = playerNumber;
+            this.PlayerType = playerType;
+            this.PlayerPosition = playerPosition;
+            this.Capability = capability;
         }
 
-      //for testing purpose
-      public Player(string firstName, string lastName, int age, int capability)
-         :base(firstName,lastName,age)
-      {
-         this.Capability = capability;
-      }
+        //for testing purpose
+        public Player(string firstName, string lastName, int age, int capability)
+           : base(firstName, lastName, age)
+        {
+            this.Capability = capability;
+        }
+        public override string ToString()
+        {
+            string firstLine = "PLAYER:";
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(firstLine);
+            sb.Append(base.ToString());
+            sb.AppendLine(string.Format("Player capability: {0}", this.Capability));
+            sb.AppendLine(string.Format("Player number in team: {0}", this.PlayerNumber));
+            sb.AppendLine(string.Format("Position: {0}", this.PlayerPosition));
+            sb.AppendLine(string.Format("Player type: {0}", this.PlayerType));
+
+            return sb.ToString();
+        }
+
+        public int PlayerNumber
+        {
+            get
+            {
+                return this.playerNumber;
+            }
+            private set
+            {
+                this.playerNumber = value;
+            }
+        }
+        public PlayerPositionType PlayerPosition
+        {
+            get
+            {
+                return this.playerPosition;
+            }
+            private set
+            {
+                this.playerPosition = value;
+            }
+        }
+        public PlayerType PlayerType
+        {
+            get
+            {
+                return this.playerType;
+            }
+            set
+            {
+                this.playerType = value;
+            }
+        }
+        public int Capability
+        {
+            get
+            {
+                return this.capability;
+            }
+            private set
+            {
+                this.capability = value;
+            }
+        }
     }
 }

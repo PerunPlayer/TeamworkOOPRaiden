@@ -1,13 +1,9 @@
 ﻿namespace TeamRaiden.Core.Infrastructure.Classes
 {
-   using Contracts.Team;
-   using System;
-   using System.Collections.Generic;
-   using System.Linq;
-   using System.Text;
-   using System.Threading.Tasks;
+    using Contracts.Team;
+    using System;
 
-   public static class Match
+    public static class Match
    {
       static Match()
       {
