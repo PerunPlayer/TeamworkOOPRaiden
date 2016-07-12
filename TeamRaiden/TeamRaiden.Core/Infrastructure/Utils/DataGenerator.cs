@@ -57,7 +57,10 @@
         }
         public static int GeneratePlayerAge()
         {
-            return random.Next(GlobalConstants.PlayerAgeMin, GlobalConstants.PlayerAgeMax);
+            Random rand = new Random();
+            var change = rand.Next(GlobalConstants.PlayerAgeMin, GlobalConstants.PlayerAgeMax);
+            change= rand.Next(GlobalConstants.PlayerAgeMin, GlobalConstants.PlayerAgeMax);
+            return change;
         }
         public static int GenerateCoachAge()
         {
@@ -97,20 +100,18 @@
         }
         public static PlayerType GeneratePlayerType()
         {
-            return (PlayerType)random.Next((int)(PlayerType.NotSet), (int)(PlayerType.Substitute));
+            return (PlayerType)random.Next((int)(PlayerType.Starter), (int)(PlayerType.Starter));
         }
         public static PlayerPositionType GeneratePlayerPosition()
         {
-            return (PlayerPositionType)random.Next((int)(PlayerPositionType.NotSet), (int)(PlayerPositionType.Attacker));
+            return (PlayerPositionType)random.Next((int)(PlayerPositionType.GoalKeeper), (int)(PlayerPositionType.Attacker));
         }
         public static string GenerateTeamName()
         {
             int indexTeamName = random.Next(0, GlobalConstants.TeamNames.Count - 1);
             return GlobalConstants.TeamNames[indexTeamName];
         }
-
-
-
+        
         public static Player GeneratePlayer()
         {
             return new Player(GenerateFirstName(), GenerateLastlName(), GenerateID(), GeneratePlayerAge(), GenerateHeigth(),
