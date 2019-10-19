@@ -30,3 +30,11 @@ D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\Team
 D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\obj\Debug\TeamRaiden.ConsoleClient.csprojResolveAssemblyReference.cache
 D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\obj\Debug\TeamRaiden.ConsoleClient.exe
 D:\Projects\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\obj\Debug\TeamRaiden.ConsoleClient.pdb
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.ConsoleClient.exe.config
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\obj\Debug\TeamRaiden.ConsoleClient.exe
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\obj\Debug\TeamRaiden.ConsoleClient.pdb
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.ConsoleClient.exe
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.ConsoleClient.pdb
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.Core.dll
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\bin\Debug\TeamRaiden.Core.pdb
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.ConsoleClient\obj\Debug\TeamRaiden.ConsoleClient.csprojResolveAssemblyReference.cache

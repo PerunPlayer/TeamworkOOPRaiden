@@ -7,3 +7,8 @@ D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\bin\Debug\T
 D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.csprojResolveAssemblyReference.cache
 D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.dll
 D:\TELERIK\OOP\TEAMWORK\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.pdb
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\bin\Debug\TeamRaiden.Core.dll
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\bin\Debug\TeamRaiden.Core.pdb
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.csprojResolveAssemblyReference.cache
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.dll
+D:\Github Repository\TeamworkOOPRaiden\TeamRaiden\TeamRaiden.Core\obj\Debug\TeamRaiden.Core.pdb
